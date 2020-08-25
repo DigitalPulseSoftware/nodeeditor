@@ -44,6 +44,7 @@ qt5_add_resources(RESOURCES ./resources/resources.qrc)
 # Unfortunately, as we have a split include/src, AUTOMOC doesn't work.
 # We'll have to manually specify some files
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_DEBUG_POSTFIX d)
 
 set(CPP_SOURCE_FILES
   src/Connection.cpp
