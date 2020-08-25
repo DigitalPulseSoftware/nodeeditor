@@ -1,6 +1,6 @@
 #pragma once
 
-#include <QtGlobal>
+#include <QtCore/QtGlobal>
 
 #if (QT_VERSION < QT_VERSION_CHECK(5, 14, 0))
 
